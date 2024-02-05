@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'red-christmas';
+    src: url(fuentes/Red\ Christmas\ -\ Personal\ Use.otf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    background-image: url(img/fondonavideño.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   /*Se utiliza para que ocupe todo el largo de la pagina*/
+
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-box {
+    width: 600px;
+    height: 100px;
+    border-radius: 1%;
+    margin: 0.2%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja1 {
+    background-color: rgb(183, 224, 231);
+    background-image: url(img/decoracion1.png);
+} 
+
+.caja2 {
+    background-color: rgb(183, 224, 231);
+    background-image: url(img/decoracion1.png);
+}
+
+.caja3 {
+    background-color: rgb(183, 224, 231);
+    background-image: url(img/decoracion1.png);
+}
+
+h1 {
+    font-family: 'red-christmas';
+    font-weight: bold;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.caja4 {
+    background-image: url(img/fondofinal.png);
+    background-repeat: no-repeat;   /*Para que la imagen si esta pequeña no se repita varias veces en la caja*/
+    background-size: cover;   /*Para que la imagen de adapte el div o la caja*/
+    background-position: center;     /*Para que la imagen se centre dentro de la caja*/
+    width: 1810px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.caja5 {
+    background-color: rgb(194, 117, 117);
+    width: 600px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px double black;
+}
+
+.caja6 {
+    background-color: rgb(141, 204, 141);
+    width: 600px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px dotted black;
+}
+
+.caja7 {
+    background-color: rgb(194, 117, 117);
+    width: 600px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px double black;
+}
+
+.circulo1 {
+    background-image: url(img/imagen07.jpg);
+    background-position: center;
+    width: 340px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.circulo2 {
+    background-image: url(img/imagen05.jpg);
+    background-position: center;
+    width: 340px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.circulo3 {
+    background-image: url(img/imagen03.jpg);
+    background-position: center;
+    width: 340px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.circulo4 {
+    background-color: aquamarine;
+    background-image: url(img/imagen04.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.circulo5 {
+    background-image: url(img/imagen06.jpg);
+    background-position: center;
+    width: 340px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.caja8 {
+    background-color: rgb(195, 243, 243);
+    background-image: url(img/final2.png);
+    background-repeat: no-repeat;
+    width: 1810px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.caja9 {
+    background-color: black;
+    width: 700px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    text-decoration: none;  /*Para que no se vea el subrayado en el texto al darle click*/
+}
+
+a:hover {
+    background-color: rgb(138, 207, 138);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: black;
+    font-family: 'red-christmas';  /*Se da a entender de que familia es la tipofrafia que vamos a utilizar*/
+    font-weight: bold;
+    text-align: center;   /*Se utiliza para centrar ell texto dentro de la caja*/
+    font-size: 80px;  /*Escoguer el tamaño de la tipografia*/
+
+}
+
+h2 {
+    font-family: 'red-christmas';
+    font-weight: bold;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
